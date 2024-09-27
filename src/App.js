@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Alvin from './components/hello';
+import Greetings from './components/Greetings';
+import Guten from './components/Guten';
+import Follow from './components/Follow';
 
 function App() {
   return (
@@ -7,7 +11,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Halo Semuanya!
         </p>
         <a
           className="App-link"

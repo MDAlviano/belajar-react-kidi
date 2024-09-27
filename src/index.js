@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Hello from './components/hello';
+import Greetings from './components/Greetings';
+import Guten from './components/Guten';
+import Follow from './components/Follow';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Hello/>
+      <Greetings></Greetings>
+      <Guten name="Stallone"></Guten>
+      <Guten name="Mark"></Guten>
+      <Guten name="Michael"></Guten>
+      <Follow/>
   </React.StrictMode>
 );
 
